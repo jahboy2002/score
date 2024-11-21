@@ -62,7 +62,7 @@
             } else if (evaluationType === 'group') {
                 evaluateeContent += `
                     <label for="evaluateeNumbers">เลขที่ของผู้รับการประเมิน (ประเมินแบบกลุ่ม)</label>
-                    <div id="evaluateeNumbers" class="checkbox-group" style="display: flex; flex-wrap: wrap; gap: 10px;">
+                    <div id="evaluateeNumbers" class="checkbox-group" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(60px, 1fr)); gap: 10px;">
                         <label style="display: flex; align-items: center;"><input type="checkbox" name="evaluateeNumbers[]" value="1" style="margin-right: 5px;"> 1</label>
                         <label style="display: flex; align-items: center;"><input type="checkbox" name="evaluateeNumbers[]" value="2" style="margin-right: 5px;"> 2</label>
                         <label style="display: flex; align-items: center;"><input type="checkbox" name="evaluateeNumbers[]" value="3" style="margin-right: 5px;"> 3</label>
